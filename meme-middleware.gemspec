@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Robert Pankowecki"]
   s.email       = ["robert.pankowecki@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Find meme references in your pages and convert them to images}
+  s.description = s.summary
 
   s.rubyforge_project = "meme-middleware"
 
@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
+  s.add_development_dependency "rack"
   # s.add_runtime_dependency "rest-client"
 end
